@@ -1,0 +1,18 @@
+<form [formGroup]="loginForm" (ngSubmit)="displayData(loginForm)">
+  
+  <label>
+    First Name:
+    <input type="text" formControlName="firstName" validISBN>
+       <pre *ngIf="loginForm.controls.firstName.errors.required">Firstname is required</pre>
+       <pre *ngIf="loginForm.controls.firstName.errors?.isbn">{{loginForm.controls.firstName.errors.isbn}}</pre>
+  </label>
+
+  <label>
+    Last Name:
+    <input type="text" formControlName="lastName">
+  </label>
+
+  <button>Login</button>
+
+</form>
+

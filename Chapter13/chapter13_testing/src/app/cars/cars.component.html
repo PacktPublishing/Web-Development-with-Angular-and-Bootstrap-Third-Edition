@@ -1,0 +1,31 @@
+<h1>{{heading}}</h1>
+
+<ul>
+  <li *ngFor ="let brand of brands" class="car-list">
+      <a [routerLink]="[brand.id]">{{ brand.name}}</a>
+  </li>
+</ul>
+
+<button (click)="getCars()">Get Cars from http service</button>
+<h1> Get more cars from http request</h1>
+<ul>
+  <li *ngFor ="let car of cars | async" class="car-list">
+      <a [routerLink]="[car.id]">{{ car.name}}</a>
+  </li>
+</ul>
+
+<section>
+  <div>
+      <label>Owner Name: </label>
+      <div>
+          <input type="text" class="form-control" [(ngModel)]="owner.name" name="ownerName"/>
+      </div>
+  </div>
+
+</section>
+
+<section *ngIf="isAvailable" id="isAvailable">
+  Display this section only when car is in stock
+</section>
+
+<router-outlet></router-outlet>

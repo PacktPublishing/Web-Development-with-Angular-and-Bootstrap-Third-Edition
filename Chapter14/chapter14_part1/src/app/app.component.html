@@ -1,0 +1,38 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+</div>
+
+<h4>Custom Directive Example</h4>
+
+<input type="text" class="form-control" appOnFocusBlur class="nav-search" >
+
+<!--
+<h4>Custom Form Validation</h4>
+<form [formGroup]="loginForm" (ngSubmit)="login()">
+ <input
+      type="text"
+      name="username"
+      id="username"
+      formControl="username">
+
+      <div [hidden]="username.valid || username.untouched">
+      <div>
+        The following problems have been found with the username:
+      </div>
+      
+      <div [hidden]="!username.hasError('minlength')">
+        Username can not be shorter than 5 characters.
+      </div>
+      <div [hidden]="!username.hasError('required')">
+        Username is required.
+      </div>
+      </div>
+
+<button type="submit" [disabled]="!loginForm.valid">Log In</button>
+
+</form>
+-->
+<router-outlet></router-outlet>

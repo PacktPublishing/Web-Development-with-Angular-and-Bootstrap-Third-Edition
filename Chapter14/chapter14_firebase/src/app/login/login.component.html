@@ -1,0 +1,32 @@
+
+<div *ngIf="!_appAuthService.loggedInUser">
+<form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+  
+  <label>
+    Username
+    <input type="text" formControlName="firstName" class="form-control">
+  </label>
+  <p>
+  <label>
+   Password
+    <input type="password" formControlName="lastName" class="form-control">
+  </label>
+  <div>
+  <button>Login</button>
+  </div>
+
+</form>
+
+</div>
+
+<!--
+<div *ngIf="afAuth.user | async as user; else showLogin">
+      <h1>Hello {{ user.displayName }}!</h1>
+      <button (click)="logout()">Logout</button>
+    </div>
+    <ng-template #showLogin>
+      <p>Please login.</p>
+      <button (click)="onSubmit()">Login with Google</button>
+    </ng-template>
+
+    -->

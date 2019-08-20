@@ -1,0 +1,19 @@
+<div>
+   <form #loginForm="ngForm" (ngSubmit)="login(loginForm.value)">
+ <h3 class="text-center text-primary">Login</h3>
+ <div class="form-group">
+ <label for="username">Username:</label><br>
+  <input type="text" ngModel #username="ngModel" name="username" placeholder="Enter username" required class="form-control">
+
+  <span class="text-danger" *ngIf="username.touched && !username.valid"> Enter username </span>
+ </div>
+ <div class="form-group">
+ <label for="password">Password:</label><br>
+ <input type="password" [ngModel]="password" name="password" required minlength="3"  class="form-control">
+ </div>
+
+ <button type="submit" class="btn btn-primary" [disabled]="!loginForm.valid">Sign in</button>
+ 
+ </form>
+ 
+</div>
