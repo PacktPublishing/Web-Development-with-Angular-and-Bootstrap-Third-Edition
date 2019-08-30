@@ -1,0 +1,26 @@
+[
+    {
+        "id" : 1,
+        "userId": 2,
+        "title" : "Sunset in New York",
+        "status" : "A",
+        "price": "$100",
+        "active": true
+    },
+    {
+        "id" : 2,
+        "userId": 1,
+        "title" : "Evening in California",
+        "status" : "Inactive",
+        "price": "$220",
+        "active": true
+    },
+    {
+        "id" : 3,
+        "userId": 3,
+        "title" : "Dawn at Miami",
+        "status" : "Active",
+        "price": "$90",
+        "active": false
+    }
+]

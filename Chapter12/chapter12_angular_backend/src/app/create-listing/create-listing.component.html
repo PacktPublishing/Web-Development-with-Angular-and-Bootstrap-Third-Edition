@@ -1,0 +1,31 @@
+<h4>Add New Listing</h4>
+<p>
+<div class="container">
+
+<div *ngIf="successMsg" class="alert alert-success">List Added Successful
+ <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+
+<form #listingForm="ngForm" (ngSubmit)="addNewList(listingForm)">
+  <div class="form-group">
+    <label for="title">Enter Listing Title</label>
+    <input type="text" required [ngModel]="title" name="title" class="form-control" placeholder="Enter title">
+  </div>
+  <div class="form-group">
+    <label for="price">Enter Description</label>
+    <input type="text" required [ngModel]="description" name="description" class="form-control" placeholder="Enter Description">
+  </div>
+  <div class="form-group">
+    <label for="price">Enter Price</label>
+    <input type="number" required [ngModel]="price" name="price" class="form-control" placeholder="Enter price here">
+  </div>
+  <div class="form-group form-check">
+    <input type="checkbox" required [ngModel]="status" name="status" class="form-check-input">
+    <label class="form-check-label" for="status">Active?</label>
+  </div>
+  <button type="submit" [disabled]="!listingForm.valid" class="btn btn-primary">Add New Listing</button>
+</form>
+
+</div>

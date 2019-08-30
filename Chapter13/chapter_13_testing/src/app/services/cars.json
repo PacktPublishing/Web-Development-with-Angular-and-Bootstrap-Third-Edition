@@ -1,0 +1,6 @@
+{
+  "cars": [
+    { "id": 1, "name": "BMW"},
+    { "id": 2, "name": "Audi" }
+  ]
+}

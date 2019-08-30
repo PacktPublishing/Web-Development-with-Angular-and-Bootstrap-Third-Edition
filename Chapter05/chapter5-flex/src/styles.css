@@ -1,0 +1,35 @@
+/* You can add global styles to this file, and also import other style files */
+/* Add application styles & imports to this file! */
+
+.bounds {
+    background-color:#ddd;
+    height :800px;
+  }
+  
+  .sec1 {
+    background: #fff;
+    color:#222;
+    text-transform: uppercase
+  }
+  
+  .sec2 {
+    background: #ddd;
+    color:#222;
+    
+  }
+  
+  .sec3 {
+    background: blue;
+    color:white;
+    text-transform: uppercase
+  }
+  
+  .sec1, .sec2, .sec3 {
+    padding-top:20px;
+    text-align:center
+  }
+  
+  .content {
+    min-width: 300px;
+    /*height: 400px;*/
+  }

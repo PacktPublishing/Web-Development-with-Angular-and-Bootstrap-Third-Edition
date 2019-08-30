@@ -1,0 +1,36 @@
+<mat-sidenav-container fullscreen>
+  <mat-sidenav #sidenav mode="push" class="app-sidenav">
+    <mat-toolbar color="primary">
+      <span class="toolbar-filler"></span>
+      <button md-icon-button (click)="sidenav.toggle()" class="md-icon-button sidenav-toggle-button" [hidden]="!sidenav.opened">
+      </button>
+    </mat-toolbar>
+    <mat-list>
+      <mat-list-item><a matLine href="material-navigation">Material Navigation</a></mat-list-item>
+      <mat-list-item><a matLine href="material-forms">Material Forms</a></mat-list-item>
+      <mat-list-item><a matLine href="material-cards">Material Cards</a> </mat-list-item>
+      <mat-list-item><a matLine href="material-tables">Material Tables</a></mat-list-item>
+      <mat-list-item><a matLine href="material-modals">Material Modals</a></mat-list-item>
+      <mat-list-item><a matLine href="material-layout">Material Layout</a></mat-list-item>
+      <mat-list-item><a matLine href="material-buttons">Material Buttons</a></mat-list-item>
+    </mat-list>
+
+  </mat-sidenav>
+
+  <mat-toolbar id="appToolbar" color="primary">
+    <button md-icon-button (click)="sidenav.toggle()" class="md-icon-button sidenav-toggle-button" [hidden]="sidenav.opened">
+      <mat-icon aria-label="Menu" class="material-icons">menu</mat-icon>
+    </button>
+    <h1 class="component-title">
+      <a class="title-link">Angular Material</a>
+    </h1>
+    <span class="toolbar-filler"></span>
+    <button mat-button [matMenuTriggerFor]="menu" color="secondary">Menu</button>
+    <mat-menu #menu="matMenu" >
+      <button mat-menu-item>Item 1</button>
+      <button mat-menu-item>Item 2</button>
+    </mat-menu>
+     <a  href="#">Login</a>
+    <a href="#">Logout</a>
+  </mat-toolbar>
+</mat-sidenav-container>

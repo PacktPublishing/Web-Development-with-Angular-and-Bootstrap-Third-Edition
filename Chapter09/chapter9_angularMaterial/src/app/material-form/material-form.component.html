@@ -1,0 +1,55 @@
+
+<mat-card class="z-depth" >
+  
+  <mat-card-title>Material Form Example</mat-card-title>
+  <mat-card-subtitle>Collection of Material Form Fields</mat-card-subtitle>
+  
+  <mat-card-content>
+      <form class="material-form">
+        <div>
+          <mat-form-field>
+            <input matInput placeholder="Enter Email Address" value="">
+          </mat-form-field>
+        </div>
+        <div>
+          <mat-form-field class="example-full-width">
+            <textarea matInput placeholder="Enter your comments here"></textarea>
+          </mat-form-field>
+        </div>
+      <mat-radio-group>
+        <p>Select your Gender</p>
+        <mat-radio-button>Male</mat-radio-button>
+        <mat-radio-button>Female</mat-radio-button>
+      </mat-radio-group>
+      <div>
+       
+           Select City
+        <mat-select matNativeControl required>
+          <mat-option value="newyork">New York City</mat-option>
+          <mat-option value="london">London</mat-option>
+          <mat-option value="bangalore">Bangalore</mat-option>
+          <mat-option value="dallas">Dallas</mat-option>
+        </mat-select>
+       
+      </div>
+     
+        Select Range
+        <mat-slider></mat-slider>
+      
+      <div>
+        <mat-slide-toggle>Save Preferences</mat-slide-toggle>
+      </div>
+      <div>
+        <p>
+        <mat-checkbox>Agree to Terms and Conditions</mat-checkbox>
+        </p>
+      </div>
+
+      </form>
+  </mat-card-content>
+
+  </mat-card>  
+  
+  
+
+
