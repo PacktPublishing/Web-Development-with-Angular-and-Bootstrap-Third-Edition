@@ -56,22 +56,24 @@ With the following software and hardware list you can run all code files present
 
 
 
-### Related products <Other books you may enjoy>
-* Linux: Powerful Server Administration [[Packt]](https://www.packtpub.com/networking-and-servers/linux-powerful-server-administration?utm_source=github&utm_medium=repository&utm_campaign=9781788293778) [[Amazon]](https://www.amazon.com/dp/1788293770)
+### Related products
+* Getting Started with Web Components [[Packt]](https://www.packtpub.com/web-development/getting-started-web-components?utm_source=github&utm_medium=repository&utm_campaign=9781838649234) [[Amazon]](https://www.amazon.com/dp/B07SB4ZLHT)
 
-* Linux Device Drivers Development [[Packt]](https://www.packtpub.com/networking-and-servers/linux-device-drivers-development?utm_source=github&utm_medium=repository&utm_campaign=9781785280009) [[Amazon]](https://www.amazon.com/dp/1788293770)
+* Flask Framework Cookbook, Second Edition [[Packt]](https://www.packtpub.com/web-development/flask-framework-cookbook-second-edition?utm_source=github&utm_medium=repository&utm_campaign=9781789951295) [[Amazon]](https://www.amazon.com/dp/B07VHYR9BJ)
 
-## Get to Know the Author(s)
-**Author Name**
-Bio
+## Get to Know the Authors
+**Sridhar Rao Chivukula**
+is a technical lead at Mindtree Ltd and is based out of New York City. He brings with him more than a decade of rich hands-on experience in all aspects of frontend engineering. He has worked with leading companies such as Oracle, Tech Mahindra, and Cognizant Technology Solutions. He has a Bachelor's degree in Information Technology. He is the author of the books Expert Angular and PHP and script.aculo.us Web 2.0 Application Interfaces, published by Packt.
 
-**Author Name**
-Bio
+**Aki Iskandar**
+is an entrepreneur and software architect with over two decades of programming experience. He has worked as a consultant for Microsoft, Compuware, Progressive Insurance, Allstate Insurance, KeyBank, Ernst & Young, and Charles Schwab, to name a few. His last full-time job, before leaving the corporate world in 2011, was at PNC , where he served as an enterprise architect on their Enterprise Architecture team. During that time, he served as a core member on PNC's Architecture Review Board, which was responsible for creating reference architectures, reviewing the architectural diagrams for IT projects that were in the tens of millions of dollars in size, and establishing IT Governance for the corporation.
+
+He is the founder of VIZCARO.com (an online motivational service that helps thousands of people) and maintains a blog focusing on Angular and related technologies.
 
 
 ## Other books by the authors
-* [Mastering Linux Network Administration](https://www.packtpub.com/networking-and-servers/mastering-linux-network-administration?utm_source=github&utm_medium=repository&utm_campaign=9781784399597)
-* [Linux Mint Essentials](https://www.packtpub.com/networking-and-servers/linux-mint-essentials?utm_source=github&utm_medium=repository&utm_campaign=9781782168157)
+* [PHP and script.aculo.us Web 2.0 Application Interfaces](https://www.packtpub.com/web-development/php-and-scriptaculous-web-20-application-interfaces?utm_source=github&utm_medium=repository&utm_campaign=9781847194046)
+
 
 ### Suggestions and Feedback
 [Click here](https://docs.google.com/forms/d/e/1FAIpQLSdy7dATC6QmEL81FIUuymZ0Wy9vH1jHkvpY57OiMeKGqib_Ow/viewform) if you have any feedback or suggestions.
