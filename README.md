@@ -1,6 +1,6 @@
 # Web Development with Angular and Bootstrap - Third Edition
 
-<a href="https://www.packtpub.com/web-development/web-development-angular-and-bootstrap-third-edition?utm_source=github&utm_medium=repository&utm_campaign=9781788838108"><img src="https://www.packtpub.com/media/catalog/product/cache/e4d64343b1bc593f1c5348fe05efa4a6/9/7/9781788838108-original.jpeg" alt="Web Development with Angular and Bootstrap - Third Edition" height="256px" align="right"></a>
+<a href="https://www.packtpub.com/web-development/web-development-angular-and-bootstrap-third-edition?utm_source=github&utm_medium=repository&utm_campaign=9781788838108"><img src="https://www.packtpub.com/media/catalog/product/cache/e4d64343b1bc593f1c5348fe05efa4a6/9/7/9781788838108-original.jpeg" alt="Book Name" height="256px" align="right"></a>
 
 This is the code repository for [Web Development with Angular and Bootstrap - Third Edition](https://www.packtpub.com/web-development/web-development-angular-and-bootstrap-third-edition?utm_source=github&utm_medium=repository&utm_campaign=9781788838108), published by Packt.
 
