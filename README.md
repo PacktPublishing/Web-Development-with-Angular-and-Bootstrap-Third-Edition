@@ -54,7 +54,8 @@ With the following software and hardware list you can run all code files present
 | 1-15     | Protractor            | Operating System Independent |
 | 1-15     | Karma            | Operating System Independent |
 
-
+## Errata
+* Please note the **Appendix A** reference in the book is a mistake.
 
 ### Related products
 * Getting Started with Web Components [[Packt]](https://www.packtpub.com/web-development/getting-started-web-components?utm_source=github&utm_medium=repository&utm_campaign=9781838649234) [[Amazon]](https://www.amazon.com/dp/B07SB4ZLHT)
