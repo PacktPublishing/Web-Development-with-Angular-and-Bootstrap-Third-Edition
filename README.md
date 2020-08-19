@@ -49,7 +49,7 @@ With the following software and hardware list you can run all code files present
 | -------- | ------------------------------------| -----------------------------------|
 | 1-15     | Angular                             | Operating System Independent |
 | 1-15     | NodeJS > 10                         | Operating System Independent |
-| 15       | Wamp/Mamp            | Operating System Independent) |
+| 15       | Wamp/Mamp            | Operating System Independent |
 | 1-15     | Visual Studio Code            | Operating System Independent |
 | 1-15     | Protractor            | Operating System Independent |
 | 1-15     | Karma            | Operating System Independent |
