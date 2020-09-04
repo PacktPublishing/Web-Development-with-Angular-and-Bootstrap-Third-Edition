@@ -22,7 +22,7 @@
     "bootstrap": "^4.2.1",
     "core-js": "^2.5.4",
     "jquery": "^3.3.1",
-    "node-sass": "^4.12.0",
+    "node-sass": "^4.13.1",
     "popper": "^1.0.1",
     "rxjs": "~6.3.3",
     "tslib": "^1.9.0",
